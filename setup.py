@@ -3,6 +3,12 @@ from setuptools import setup
 
 PACKAGE_NAME = "hafapiserver"
 
+
+VERSION_MAIN = 0
+VERSION_SUB = 0
+VERSION_FIX = 5
+
+
 requires = [
     'haf',
     'twine',
@@ -28,12 +34,12 @@ def package_files(directory):
 
 setup(
     name = PACKAGE_NAME,
-    version = f"{0}.{0}.{4}",
+    version = f"{VERSION_MAIN}.{VERSION_SUB}.{VERSION_FIX}",
     author = 'wei.meng',
     author_email = 'mengwei1101@hotmail.com',    
     long_description = long_description,
     long_description_content_type='text/markdown',
-    url='http://github.com/tsbxmw/haf-plugin-webserver',
+    url='http://github.com/hautof/haf-plugin-webserver',
     packages=setuptools.find_packages(),
     python_requires='>=3.6',
     install_requires=requires,

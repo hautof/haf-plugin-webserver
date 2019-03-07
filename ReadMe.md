@@ -2,6 +2,8 @@
 
     The plugin web server of haf
 
+    [![Build Status](https://travis-ci.org/hautof/haf-plugin-webserver.svg?branch=master)](https://travis-ci.org/hautof/haf-plugin-webserver)
+
 ### How to get it?
 
 > by pip tool

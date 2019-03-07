@@ -1,7 +1,7 @@
 import setuptools, os
 from setuptools import setup
 
-PACKAGE_NAME = "haf-webserver"
+PACKAGE_NAME = "hafapiserver"
 
 requires = [
     'haf',
@@ -26,15 +26,9 @@ def package_files(directory):
     return paths
 
 
-package_extras = []
-
-
-package_extras.extend(package_files(f'{PACKAGE_NAME}'))
-
-
 setup(
     name = PACKAGE_NAME,
-    version = f"{0}.{0}.{1}",
+    version = f"{0}.{0}.{3}",
     author = 'wei.meng',
     author_email = 'mengwei1101@hotmail.com',    
     long_description = long_description,

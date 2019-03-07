@@ -3,8 +3,8 @@
 from flask import Flask
 from flask_restful import abort, Api
 from haf.ext.jinjia2report.report import Jinja2Report
-from webserver.resources import *
 from haf.config import *
+from resources import *
 
 app = Flask("haf-app")
 api = Api(app)

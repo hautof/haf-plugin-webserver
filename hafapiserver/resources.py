@@ -1,7 +1,7 @@
 # encoding='utf-8'
 import requests
-from haf.busclient import BusClient
 from haf import globalenv
+from haf.busclient import BusClient
 from haf.result import EndResult
 from flask import make_response
 from flask_restful import Resource

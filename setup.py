@@ -28,7 +28,7 @@ def package_files(directory):
 
 setup(
     name = PACKAGE_NAME,
-    version = f"{0}.{0}.{3}",
+    version = f"{0}.{0}.{4}",
     author = 'wei.meng',
     author_email = 'mengwei1101@hotmail.com',    
     long_description = long_description,

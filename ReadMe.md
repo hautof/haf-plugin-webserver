@@ -9,7 +9,7 @@
 > by pip tool
 
 ```shell
-    tsbx-mw# pip install haf-webserver
+    tsbx-mw# pip install hafapiserver
 ```
 
 > by src

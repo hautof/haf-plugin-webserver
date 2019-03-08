@@ -6,7 +6,7 @@ PACKAGE_NAME = "hafapiserver"
 
 VERSION_MAIN = 0
 VERSION_SUB = 0
-VERSION_FIX = 6
+VERSION_FIX = 7
 
 
 requires = [

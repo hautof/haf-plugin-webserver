@@ -32,6 +32,12 @@ def report_app() -> str:
     report_stream = Jinja2Report.report_online_app(globalenv.get_global("results"))
     return report_stream
 
+@app.route("/report-web")
+def report_web() -> str:
+    ResultResource().get()
+    report_stream = Jinja2Report.report_online_app(globalenv.get_global("results"))
+    return report_stream
+
 @app.route("/status")
 def status() -> str:
     return '{"status": "ok"}'

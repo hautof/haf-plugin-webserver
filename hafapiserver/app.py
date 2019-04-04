@@ -55,3 +55,5 @@ def web_server(bus_client: BusClient):
     app.run(debug=False, port=WEB_SERVER_PORT)
 
 
+if __name__ == "__main__":
+    web_server(BusClient())

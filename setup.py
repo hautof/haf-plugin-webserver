@@ -6,7 +6,7 @@ PACKAGE_NAME = "hafapiserver"
 
 VERSION_MAIN = 0
 VERSION_SUB = 0
-VERSION_FIX = 8
+VERSION_FIX = 9
 
 
 requires = [
@@ -43,6 +43,8 @@ setup(
     packages=setuptools.find_packages(),
     python_requires='>=3.6',
     install_requires=requires,
+    entry_points={"haf": ["hafapiserver=hafapiserver"]},
+    py_modules=["hafapiserver"],
     platforms='Posix; MacOS X; Windows',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
